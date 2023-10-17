@@ -2,10 +2,6 @@ pipeline {
   agent any
 
   environment {
-    deploymentName = “diagrams_deployment”
-    containerName = "diagrams-container"
-    serviceName = “diagrams-svc"
-    imageName = "nginxdemos/hello"
   }
 
   stages {
